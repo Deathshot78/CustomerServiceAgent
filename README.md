@@ -107,8 +107,8 @@ You need to have Python 3.8+ installed on your system.
 1. **Clone the repository (or download the files):**
 
     ```sh
-    git clone <your-repo-url>
-    cd <your-repo-directory>
+    git clone https://github.com/Deathshot78/CustomerServiceAgent
+    cd https://github.com/Deathshot78/CustomerServiceAgent
     ```
 
 2.  **Install the dependencies:**
