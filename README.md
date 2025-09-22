@@ -5,7 +5,7 @@
 
 An intelligent, multi-modal customer service agent built with a Retrieval-Augmented Generation (RAG) pipeline. This agent can understand user sentiment, retrieve relevant information from a knowledge base, and provide empathetic, context-aware responses in both text and voice.
 
-the gradio demo can be found [Here](https://huggingface.co/datasets/MakTek/Customer_support_faqs_dataset)
+the gradio demo can be found [Here](https://huggingface.co/spaces/Deathshot78/CustomerServiceAgent)
 
 ![Gradio](assets/gradio.png)
 
