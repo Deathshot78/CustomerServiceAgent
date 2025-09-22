@@ -80,6 +80,8 @@ A key decision in this project was selecting the right LLM for response generati
 
 While this project is a fully functional proof-of-concept, there are several ways it could be enhanced for a production environment:
 
+- **🤖 RLHF-lite for Continuous Improvement**: Extend the agent with reinforcement learning from human feedback (RLHF) using Hugging Face’s TRL library and PPO. This would allow the model to learn from thumbs-up/down feedback or simulated reward signals, improving response quality, politeness, and relevance over time.
+
 - **📈 Scale the LLM**: For even higher quality responses and more nuanced conversations, we could upgrade to a much larger model (e.g., Llama 3, Mistral Large). This would require a more powerful GPU for inference to maintain an acceptable response time.
 
 - **🎯 Customize the Knowledge Base**: Instead of a generic FAQ dataset [(MakTek/Customer_support_faqs_dataset)](https://huggingface.co/datasets/MakTek/Customer_support_faqs_dataset), the agent could be provided with a company's internal documentation, product manuals, or past support tickets. This would make it a highly specialized and valuable internal tool.
